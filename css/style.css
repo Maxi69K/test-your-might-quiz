@@ -1,0 +1,98 @@
+/*   random images:      https://source.unsplash.com/random    */
+
+/**********************************************
+                Global styles
+**********************************************/
+body {
+  height: 100vh;
+  margin: auto;
+  text-align: center;
+  background: url(https://source.unsplash.com/-2vD8lIhdnw) center/cover no-repeat;
+  color: #fff;
+}
+
+/**********************************************
+                Specific styles
+**********************************************/
+h1 {
+  background-color: rgba(0, 0, 0, .3);
+  width: 450px;
+  margin: 2rem auto;
+  padding: 1rem .5rem;
+  border-radius: 10px;
+}
+
+header {
+  width: 450px;
+  padding-bottom: 0.1px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: auto;
+}
+
+header:hover {
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, .3);
+}
+
+h4 {
+  padding: 1rem;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: #26a69a;
+  border-bottom: 2px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, rgba(51, 51, 51, 0), rgba(51, 51, 51, .9), rgba(51, 51, 51, 0));
+
+}
+
+li {
+  padding: 1rem;
+  margin: 1rem 0.5rem;
+  border: 1px solid #666;
+  border-radius: 3px;
+  transition: background-color .2s ease-in;
+}
+
+li:hover {
+  background-color: #26a69a;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, .3);
+  transition: background-color .2s ease-in;
+}
+
+li:active {
+  transform: scale(.98);
+}
+
+label {
+  font-size: 1.3rem;
+  transition: .3s ease-in;
+}
+
+label:hover {
+  cursor: pointer;
+  color: #000;
+}
+
+input:checked~label {
+  color: red;
+}
+
+#submit-btn {
+  width: 450px;
+  margin-top: 2rem;
+}
+
+#submit-btn:hover {
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, .3);
+}
+
+#submit-btn:active {
+  transform: scale(.95);
+}
+
+
+/**************************************
+            @media Queries
+**************************************/
+
+/* @media all and (min-width: 576px) {} */
